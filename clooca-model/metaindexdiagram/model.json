@@ -5,8 +5,34 @@
     {
       "eClass": "https://nagatsuji-nal.github.io/clooca-model/metaindexdiagram/metamodel.json#//Index",
       "name": "Index1",
+      "associations": [
+        {
+          "eClass": "https://nagatsuji-nal.github.io/clooca-model/metaindexdiagram/metamodel.json#//Association",
+          "name": "Association1",
+          "source": {
+            "$ref": "//@indexes.0",
+            "eClass": "https://nagatsuji-nal.github.io/clooca-model/metaindexdiagram/metamodel.json#//Index"
+          },
+          "target": {
+            "$ref": "//@indexes.2",
+            "eClass": "https://nagatsuji-nal.github.io/clooca-model/metaindexdiagram/metamodel.json#//Index"
+          }
+        }
+      ],
       "x": 45,
       "y": 38
+    },
+    {
+      "eClass": "https://nagatsuji-nal.github.io/clooca-model/metaindexdiagram/metamodel.json#//Index",
+      "name": "Index2",
+      "x": 69,
+      "y": 201
+    },
+    {
+      "eClass": "https://nagatsuji-nal.github.io/clooca-model/metaindexdiagram/metamodel.json#//Index",
+      "name": "Index3",
+      "x": 378,
+      "y": 144
     }
   ]
 }

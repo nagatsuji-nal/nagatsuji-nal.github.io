@@ -1,0 +1,50 @@
+{
+  "eClass": "https://clooca.github.io/model-examples/examples/diagrameditor/model.json#//DiagramSet",
+  "diagrams": [
+    {
+      "eClass": "https://clooca.github.io/model-examples/examples/diagrameditor/model.json#//Diagram",
+      "name": "ClassDiagram",
+      "nodes": [
+        {
+          "eClass": "https://clooca.github.io/model-examples/examples/diagrameditor/model.json#//Node",
+          "name": "ClassNode",
+          "metaElement": {
+            "$ref": "https://nagatsuji-nal.github.io/clooca-model/metaindexdiagram/metamodel.json#//Index",
+            "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass"
+          },
+          "containFeature": {
+            "$ref": "https://nagatsuji-nal.github.io/clooca-model/metaindexdiagram/metamodel.json#//Index Diagram/indexes",
+            "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EReference"
+          }
+        }
+      ],
+      "connections": [
+        {
+          "eClass": "https://clooca.github.io/model-examples/examples/diagrameditor/model.json#//Connection",
+          "name": "AssociationConnection",
+          "metaElement": {
+            "$ref": "https://nagatsuji-nal.github.io/clooca-model/metaindexdiagram/metamodel.json#//Association",
+            "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass"
+          },
+          "containFeature": {
+            "$ref": "https://nagatsuji-nal.github.io/clooca-model/metaindexdiagram/metamodel.json#//Index/associations",
+            "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EReference"
+          },
+          "sourceFeature": {
+            "$ref": "https://nagatsuji-nal.github.io/clooca-model/metaindexdiagram/metamodel.json#//Association/source",
+            "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EReference"
+          },
+          "targetFeature": {
+            "$ref": "https://nagatsuji-nal.github.io/clooca-model/metaindexdiagram/metamodel.json#//Association/target",
+            "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EReference"
+          }
+        }
+      ],
+      "metaElement": {
+        "$ref": "https://nagatsuji-nal.github.io/clooca-model/metaindexdiagram/metamodel.json#//Index Diagram",
+        "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass"
+      }
+    }
+  ],
+  "name": "ClassDiagramSet"
+}

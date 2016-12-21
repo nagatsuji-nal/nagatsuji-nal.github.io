@@ -1,7 +1,7 @@
 {
   "eClass": "https://nagatsuji-nal.github.io/clooca-model/metaindexdiagram/metamodel.json#//Index Diagram",
   "name": "IndexDiagram1",
-  "classes": [
+  "indexes": [
     {
       "eClass": "https://nagatsuji-nal.github.io/clooca-model/metaindexdiagram/metamodel.json#//Index",
       "name": "Index1",

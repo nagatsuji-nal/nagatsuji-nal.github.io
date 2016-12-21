@@ -1,0 +1,26 @@
+{
+  "name": "MetaIndexModel",
+  "required": [
+    {
+      "uri": "https://clooca.github.io/model-examples/examples/diagrameditor/model.json"
+    },
+    {
+      "uri": "https://nagatsuji-nal.github.io/clooca-model/metaindexdiagram/metamodel.json"
+    },
+    {
+      "uri": "https://nagatsuji-nal.github.io/clooca-model/metaindexdiagram/diagrameditor.json"
+    }
+  ],
+  "models": [
+    {
+      "uri": "https://nagatsuji-nal.github.io/clooca-model/metaindexdiagram/model.json",
+      "import": true
+    }
+  ],
+  "plugin": {
+    "diagrameditor": {
+      "name": "diagrameditor",
+      "define": "https://clooca.github.io/model-examples/examples/classdiagram/diagrameditor.json"
+    }
+  }
+}

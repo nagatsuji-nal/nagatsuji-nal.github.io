@@ -20,7 +20,7 @@
   "plugin": {
     "diagrameditor": {
       "name": "diagrameditor",
-      "define": "https://clooca.github.io/model-examples/examples/classdiagram/diagrameditor.json"
+      "define": "https://nagatsuji-nal.github.io/clooca-model/metaindexdiagram/diagrameditor.json"
     }
   }
 }

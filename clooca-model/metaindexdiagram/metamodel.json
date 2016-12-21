@@ -288,6 +288,138 @@
           "upperBound": 1
         }
       ]
+    },
+    {
+      "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass",
+      "name": "IndexGroup",
+      "abstract": false,
+      "interface": false,
+      "eSuperTypes": [
+        {
+          "$ref": "//Index",
+          "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass"
+        }
+      ]
+    },
+    {
+      "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass",
+      "name": "MandatoryAssociation",
+      "abstract": false,
+      "interface": false,
+      "eSuperTypes": [
+        {
+          "$ref": "//Association",
+          "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass"
+        }
+      ]
+    },
+    {
+      "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass",
+      "name": "OptionalAssociation",
+      "abstract": false,
+      "interface": false,
+      "eSuperTypes": [
+        {
+          "$ref": "//Association",
+          "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass"
+        }
+      ]
+    },
+    {
+      "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass",
+      "name": "AlternativeAssociation",
+      "abstract": false,
+      "interface": false,
+      "eSuperTypes": [
+        {
+          "$ref": "//Association",
+          "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass"
+        }
+      ]
+    },
+    {
+      "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass",
+      "name": "BelongsToAssociation",
+      "abstract": false,
+      "interface": false,
+      "eSuperTypes": [
+        {
+          "$ref": "//Association",
+          "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass"
+        }
+      ]
+    },
+    {
+      "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass",
+      "name": "IndexAttrName",
+      "abstract": false,
+      "interface": false,
+      "eSuperTypes": [
+        {
+          "$ref": "//IndexAttr",
+          "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass"
+        }
+      ]
+    },
+    {
+      "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass",
+      "name": "IndexAttrDesc",
+      "abstract": false,
+      "interface": false,
+      "eSuperTypes": [
+        {
+          "$ref": "//IndexAttr",
+          "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass"
+        }
+      ]
+    },
+    {
+      "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass",
+      "name": "AssociationAttrName",
+      "abstract": false,
+      "interface": false,
+      "eSuperTypes": [
+        {
+          "$ref": "//AssociationAttr",
+          "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass"
+        }
+      ]
+    },
+    {
+      "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass",
+      "name": "AssociationAttrDesc",
+      "abstract": false,
+      "interface": false,
+      "eSuperTypes": [
+        {
+          "$ref": "//AssociationAttr",
+          "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass"
+        }
+      ]
+    },
+    {
+      "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass",
+      "name": "IndexedContainerAttrName",
+      "abstract": false,
+      "interface": false,
+      "eSuperTypes": [
+        {
+          "$ref": "//IndexedContainerAttr",
+          "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass"
+        }
+      ]
+    },
+    {
+      "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass",
+      "name": "IndexedContainerAttrDesc",
+      "abstract": false,
+      "interface": false,
+      "eSuperTypes": [
+        {
+          "$ref": "//IndexedContainerAttr",
+          "eClass": "http://www.eclipse.org/emf/2002/Ecore#//EClass"
+        }
+      ]
     }
   ]
 }
